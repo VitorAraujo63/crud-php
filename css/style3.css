@@ -1,0 +1,33 @@
+.form {
+    display: grid;
+    grid-template-columns: 250px;
+    gap: 10px;
+    background-color: #765DAB;
+    padding: 30px 50px;
+}
+
+.form label {
+    text-align: start;
+}
+
+.form {
+    place-content: center;
+}
+
+.btn-save {
+    display: grid;
+    
+}
+
+button {
+    background-color: #5F429D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 1px 1px 4px black;
+}
+
+.msg-confirm {
+    color: white;
+}

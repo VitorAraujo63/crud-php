@@ -11,10 +11,10 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["phone"]))
 <div class="container">
     <div class="row">
         <a href="../../../index.php"><h1>Users - Create</h1></a>
-        <a class="btn btn-success text-white" href="../../../index.php">Prev</a>
     </div>
-    <div class="row flex-center">
+    <div class="form">
         <div class="form-div">
+            <a class="btn-prev" href="../../../index.php"><img src="../../../img/close.svg" alt="botao fechar"></a>
             <form class="form" action="../../pages/user/create.php" method="POST">
                 <label>Name</label>
                 <input type="text" name="name" required/>
@@ -23,7 +23,7 @@ if (isset($_POST["name"]) && isset($_POST["email"]) && isset($_POST["phone"]))
                 <label>Phone</label>
                 <input type="text" name="phone" required/>
 
-                <button class="btn btn-success text-white" type="submit">Save</button>
+                <button class="btn-save" type="submit">Save</button>
             </form>
         </div>
     </div>

@@ -13,10 +13,11 @@ $user = findUserAction($conn, $_GET['id']);
 <div class="container">
     <div class="row">
         <a href="../../../index.php"><h1>Users - Edit</h1></a>
-        <a class="btn btn-success text-white" href="../../../index.php">Prev</a>
+        
     </div>
-    <div class="row flex-center">
+    <div class="form">
         <div class="form-div">
+        <a class="btn btn-success text-white" href="../../../index.php"><img src="../../../img/close.svg" alt="botao fechar"></a>
             <form class="form" action="../../pages/user/edit.php" method="POST">
                 <input type="hidden" name="id" value="<?=$user['id']?>" required/>
                 <label>Name</label>

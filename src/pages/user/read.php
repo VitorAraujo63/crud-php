@@ -8,12 +8,12 @@ require_once '../partials/header.php';
 $users = readUserAction($conn);
 
 ?>
-<div class="container">
+<div class="grid">
     <div class="row">
-        <a href="../../../"><h1>Users - Read</h1></a>
-        <a class="btn btn-success text-white" href="./create.php">New</a>
+        <a href="../../../"><h1>USER PAINEL - READ  </h1></a>
+        <a class="btn-new" href="./create.php">New</a>
     </div>
-    <div class="row flex-center">
+    <div class="row msg">
         <?php if(isset($_GET['message'])) echo(printMessage($_GET['message'])); ?>
     </div>
 
@@ -29,10 +29,10 @@ $users = readUserAction($conn);
             <td class="user-email"><?=htmlspecialchars($row['email'])?></td>
             <td class="user-phone"><?=htmlspecialchars($row['phone'])?></td>
             <td>
-                <a class="btn btn-primary text-white" href="./edit.php?id=<?=$row['id']?>">Edit</a>
+                <a class="btn-edit" href="./edit.php?id=<?=$row['id']?>">Edit</a>
             </td>
             <td>
-                <a class="btn btn-danger text-white" href="./delete.php?id=<?=$row['id']?>">Remove</a>
+                <a class="btn-remove" href="./delete.php?id=<?=$row['id']?>">Remove</a>
             </td>
         </tr>
         <?php endforeach; ?>

@@ -40,4 +40,10 @@
 
 <br>
 
-<h3>Novas atualizações e breve...</h3>
+<h1>Atualização 11/08</h1>
+
+<a href="https://www.figma.com/design/JjAGFOluwowpG4rHesFM8b/Untitled?node-id=0-1&t=TqGZlPdgdk4TrpEB-1">Telas do figma</a>
+
+- Foi feito a base do css para ficar mais apresentaval ao usuario, utilizei o Figma para estar criando a base das telas, ainda resta alguma alterações e criações de telas a serem feitas, e o css foi feito bem basico realmente apenas para apresentação.
+
+<h3>Em breve mais atualizações...</h3>
